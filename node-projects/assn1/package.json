@@ -1,0 +1,14 @@
+{
+  "name": "h1-parser",
+  "version": "0.0.1",
+  "description": "node.js h1-parser projects",
+  "main": "h1-parser.js",
+  "dependencies": {
+    "htmlparser2": "^3.9.2"
+  },
+  "scripts": {
+    "test": "node h1-parser.js"
+  },
+  "author": "https://github.com/marvelousdesign",
+  "license": "ISC"
+}

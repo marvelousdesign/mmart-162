@@ -1,0 +1,14 @@
+{
+  "name": "csv-to-json",
+  "version": "0.0.1",
+  "description": "node.js csv-to-json project",
+  "main": "csv2json.js",
+  "dependencies": {
+    "csvtojson": "^1.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/marvelousdesign",
+  "license": "ISC"
+}

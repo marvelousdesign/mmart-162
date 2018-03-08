@@ -1,0 +1,14 @@
+{
+  "name": "web-crawler",
+  "version": "0.0.1",
+  "description": "node.js http web-crawler project",
+  "main": "download.js",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "test": "node download.js http://www.google.com"
+  },
+  "author": "https://github.com/marvelousdesign",
+  "license": "ISC"
+}
