@@ -45,7 +45,7 @@ https.get(url, (response) => {
                     h1.push(text.split(' '))
                 }
         	},
-            onclosetag: function(tagname){
+            onclosetag: (tagname) => {
                 if(tagname === "h1"){
                     hasH1 = false
                     //console.log("That's it?!")
@@ -57,20 +57,6 @@ https.get(url, (response) => {
         //const mergedH1 = [].concat.apply([], h1) //same as below
         console.log(h1.reduce((a,b) => a.concat(b)))
 
-        // OLD CODE:
-        // let el = document.createElement('html')
-        // el.innerHTML = `"${webpageText}"` //don't work
-        // const array = []
-        // const body = webpageText.split('<body')[1]
-        // const list = body.split('<h1') //gives alot of gibberish
-        // console.log(list)
-        // list.forEach(list => {
-        //     list = list.split('>')[0]
-        //     if (list.substring(0, 6) === 'mb-1">') {
-        //         array.push(list)
-        //     }
-        // })
-        //console.log(array)
     })
 }).on('error', (error) => {
     console.error(`Got error: ${error.message}`)
