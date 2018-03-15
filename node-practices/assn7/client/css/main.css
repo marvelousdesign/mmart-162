@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:300,400,600,800,300italic,400italic);
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    background: #F0F0F0;
+    height: 100%;
+}
+html, div, body, h2, h3, p, button, input, textarea {
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 300;
+    color: #3d3d3d;
+}
+h2 {
+    margin: 40px 0 20px;
+}
+h2 {
+    text-align: center;
+}
+h2, h3 {
+    font-weight: 400;
+}
+h1 {
+    font-family: "Amatic SC";
+    font-size: 3em;
+}
+li, p {
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+p {
+    margin: 20px 0 10px;
+}
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 0 7px #444;
+    margin: 0 auto;
+    display: block;
+}
+#main {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 30px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.comments {
+    background: #F9F9F9;
+    margin: 20px 0;
+    padding: 10px;
+    border: solid 1px #EEE;
+    border-radius: 4px;
+}
+.comments h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+}
+.right {
+    float: right;
+}
