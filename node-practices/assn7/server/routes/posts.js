@@ -33,3 +33,6 @@ module.exports = {
         res.status(204).send()
     }
 }
+
+// This is a module.exports for getPosts, getPost, addPost, updatePost, removePost that links to the app.js.
+// It shows your data store, and  sends the methods and http status to the console log.

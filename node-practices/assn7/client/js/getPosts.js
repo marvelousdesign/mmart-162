@@ -15,7 +15,7 @@ const showPosts = (posts) => {
             <img src="${post.imageURL}">
             <p>${post.text}</p>
             <a href="${post.url}">More</a>
-            <button class="button-primary right" onclick="deletePost()">Delete</button>
+            <button class="button-primary right post" onclick="deletePost()">Delete</button>
             <div class="comments">
                 <h3>Comments</h3>
                 <p>TODO next week...</p>
@@ -24,3 +24,5 @@ const showPosts = (posts) => {
     })
 }
 getPosts()
+
+// This gets and show posts in the index.html via template.

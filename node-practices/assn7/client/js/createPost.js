@@ -24,3 +24,6 @@ const createPost = () => {
 }
 
 document.querySelector('.button-primary').onclick = createPost
+
+// This creates new posts, and adds it into the array "data base" on the server (temporary)
+// it is gone when the server restarts since it's not writing to it permanently.

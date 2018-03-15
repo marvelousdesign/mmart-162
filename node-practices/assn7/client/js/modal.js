@@ -7,3 +7,5 @@ const initModal = () => {
 }
 
 initModal()
+
+// This modal adds new posts into the array on click.

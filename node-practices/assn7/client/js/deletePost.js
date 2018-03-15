@@ -7,4 +7,8 @@ const deletePost = (postID) => {
     })
 }
 
-document.querySelector('.button-primary').onclick = deletePost
+document.querySelector('.post').onclick = deletePost
+
+// This selects & deletes .post (but it deletes 1st post rather than the one you are clicking for now..)
+// if querySelector had .button-primary it would have adverse effects in the modal,
+// instead of adding new posts it would delete posts.

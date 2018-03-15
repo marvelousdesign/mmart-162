@@ -5,6 +5,9 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const routes = require('./routes')
 
+// This app.js requires the above module.exports.
+// This stores the array "data base" on the server for the client to get.
+
 let store = {
     posts: [{
         id: '0',
@@ -41,6 +44,8 @@ app.use((req, res, next) => {
     req.store = store
     next()
 })
+
+// The app do these functions when called to.
 
 app.get('/posts', routes.posts.getPosts)
 app.get('/posts/:postId', routes.posts.getPost)
